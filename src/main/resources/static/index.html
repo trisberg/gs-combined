@@ -1,11 +1,15 @@
 <!DOCTYPE HTML>
-<html>
-<head> 
-    <title>Getting Started: Serving Web Content</title> 
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.css"/>
+    <title>Getting Started: Serving Web and Data Content</title>
 </head>
 <body>
-    <p>Get your greeting <a href="/greeting">here</a></p>
-    <p>Show <a href="/customers">customer list</a></p>
+<div class="container" style="padding-top: 20vh; display: flex; flex-direction: column; align-items: center;">
+    <h1>Menu:</h1>
+    <p><a href="/greeting" class="btn btn-success">Get your greeting</a></p>
+    <p><a href="/customers" class="btn btn-success">Show customer list</a></p>
+</div>
 </body>
 </html>
