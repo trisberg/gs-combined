@@ -1,10 +1,10 @@
-package com.example.servingwebcontent;
+package com.example.web;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.accessingdatajpa.Customer;
-import com.example.accessingdatajpa.CustomerRepository;
+import com.example.data.Customer;
+import com.example.data.CustomerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
