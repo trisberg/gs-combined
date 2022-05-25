@@ -1,0 +1,11 @@
+spring:
+  # security:
+  #   oauth2:
+  #     client:
+  #       registration:
+  #         github:
+  #           clientId: 5400b5c3442cef05008b
+  #           clientSecret: ${CLIENT_SECRET}
+  jpa:
+    defer-datasource-initialization: true
+  
