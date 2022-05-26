@@ -4,8 +4,7 @@ spring:
       client:
         registration:
           github:
-            clientId: ${CLIENT_SECRET}
+            clientId: ${CLIENT_ID}
             clientSecret: ${CLIENT_SECRET}
   jpa:
     defer-datasource-initialization: true
-  
